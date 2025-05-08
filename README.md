@@ -17,7 +17,7 @@
 
 ## 📦 설치
 
-[GitHub Releases](https://github.com/Montegrand/safe-sftp-upload/safe-sftp-upload-0.0.1.vsix) 페이지에서 최신 `.vsix` 파일 다운로드
+[safe-sftp-upload-0.0.1.vsix 다운로드](https://github.com/Montegrand/safe-sftp-upload/raw/main/safe-sftp-upload-0.0.1.vsix)
 
 1. safe-sftp-upload-0.0.1.vsix 다운로드
 2. vscode 확장 프로그램 > … > 'VSIX에서 설치' 에서 다운받은 파일 선택
