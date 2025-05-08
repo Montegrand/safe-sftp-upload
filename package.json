@@ -1,0 +1,31 @@
+{
+    "name": "safe-sftp-upload",
+    "displayName": "Safe SFTP Upload",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "safeSftp.upload",
+          "title": "Safe SFTP Upload: Upload Current File"
+        }
+      ]
+    },
+    "dependencies": {
+        "@types/node": "^22.15.16",
+        "ssh2-sftp-client": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.70.0",
+        "typescript": "^4.9.0"
+    },
+    "scripts": {
+        "compile": "tsc -p ."
+    }
+}
